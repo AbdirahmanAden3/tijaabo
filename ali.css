@@ -1,0 +1,80 @@
+ 
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ }
+
+
+ .header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 60px;
+    padding: 0px 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .logo h1{
+     font-size: 25px;
+     color: #fff;
+
+ }
+ nav ul{
+    list-style: none;
+    display: flex;
+ }
+ nav ul li {
+
+    margin-left: 20px;
+    display: block;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: red;
+     transition: 0.3 ease;
+     font-size: 17px;
+
+ }
+ nav ul li a:hover{
+
+    color: #e74cd3;
+ }
+ .btn{
+    background-color: red;
+    padding: 10px 20px;
+    color: slateblue;
+    border-radius: 5px;
+    text-decoration: none;
+       transition: 0.3 ease;
+ }
+ .hero{
+
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url(img.pn/hh.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+ 
+ }
+
+ .content{
+      text-align: center;
+ }
+
+ .content h2{
+        color:darkmagenta;
+        font-size: 45px;
+        margin-bottom: 20px;
+ }
+
+ .content p{
+     font-size: 24px;
+     color: skyblue;
+     margin-bottom: 40px;
+ }
